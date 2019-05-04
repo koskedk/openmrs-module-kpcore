@@ -6,12 +6,12 @@
 
 	<!-- Module services -->
 
-	<bean id="kenyaCoreService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+	<bean id="kpCoreService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
 		<property name="transactionManager">
 			<ref bean="transactionManager" />
 		</property>
 		<property name="target">
-			<bean class="org.openmrs.module.kenyacore.api.impl.CoreServiceImpl"/>
+			<bean class="org.openmrs.module.kpcore.api.impl.CoreServiceImpl"/>
 		</property>
 		<property name="preInterceptors">
 			<ref bean="serviceInterceptors" />
@@ -24,8 +24,8 @@
 	<bean parent="serviceContext">
 		<property name="moduleService">
 			<list>
-				<value>org.openmrs.module.kenyacore.api.CoreService</value>
-				<ref local="kenyaCoreService"/>
+				<value>org.openmrs.module.kpcore.api.CoreService</value>
+				<ref local="kpCoreService"/>
 			</list>
 		</property>
 	</bean>

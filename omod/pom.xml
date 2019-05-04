@@ -3,14 +3,14 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>kenyacore</artifactId>
-		<version>2.4.1-SNAPSHOT</version>
+		<artifactId>kpcore</artifactId>
+		<version>2.4.2-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>kenyacore-omod</artifactId>
+	<artifactId>kpcore-omod</artifactId>
 	<packaging>jar</packaging>
-	<name>KenyaCore OMOD</name>
-	<description>OMOD project for KenyaCore</description>
+	<name>KPCore OMOD</name>
+	<description>OMOD project for KPCore</description>
 
 	<dependencies>
 		<dependency>

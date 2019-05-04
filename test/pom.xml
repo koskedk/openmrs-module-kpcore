@@ -3,14 +3,14 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>kenyacore</artifactId>
-		<version>2.4.1-SNAPSHOT</version>
+		<artifactId>kpcore</artifactId>
+		<version>2.4.2-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>kenyacore-test</artifactId>
+	<artifactId>kpcore-test</artifactId>
 	<packaging>jar</packaging>
-	<name>KenyaCore Testing</name>
-	<description>Testing project for KenyaCore</description>
+	<name>KPCore Testing</name>
+	<description>Testing project for KPCore</description>
 
 	<dependencies>
 

@@ -2,11 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.openmrs.module</groupId>
-	<artifactId>kenyacore</artifactId>
-	<version>2.4.1-SNAPSHOT</version>
+	<artifactId>kpcore</artifactId>
+	<version>2.4.2-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
-	<name>KenyaCore</name>
+	<name>KPCore</name>
 	<description>Core functionality for the KenyaEMR</description>
 
 	<organization>
@@ -15,9 +15,9 @@
 	</organization>
 
 	<scm>
-		<connection>scm:git:git@github.com:I-TECH/openmrs-module-kenyacore.git</connection>
-		<developerConnection>scm:git:git@github.com:I-TECH/openmrs-module-kenyacore.git</developerConnection>
-		<url>scm:git:git@github.com:I-TECH/openmrs-module-kenyacore.git</url>
+		<connection>scm:git:git@github.com:I-TECH/openmrs-module-kpcore.git</connection>
+		<developerConnection>scm:git:git@github.com:I-TECH/openmrs-module-kpcore.git</developerConnection>
+		<url>scm:git:git@github.com:I-TECH/openmrs-module-kpcore.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
